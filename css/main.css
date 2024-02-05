@@ -1,0 +1,22 @@
+p{
+    display: none;
+}
+#Rutor{
+    display: flex;
+
+    width: 60vw;
+    height: 10vh;
+}
+#Rutor div{
+    width: 15%;
+    height: 100%;
+    margin-right: 5%;
+
+    background-color: aqua;
+}
+#Rutor div p{
+    text-align: center;
+}
+.visible{
+    display: block;
+}
