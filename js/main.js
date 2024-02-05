@@ -3,7 +3,7 @@ window.onload = function(){
 
     tal = [];    
     for(Ruta of rutor.getElementsByTagName("div")){
-        p = Ruta.getElementsByTagName("p");
+        p = Ruta.getElementsByTagName("p")[1];
         console.log(p)
         while(true){
             randomTal = Math.round(Math.random() * 100);
