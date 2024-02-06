@@ -1,7 +1,9 @@
+var tal = [];
+var ruta1;
+var ruta2;
 window.onload = function(){
     rutor = document.getElementById("Rutor");
-
-    tal = [];    
+   
     console.log(rutor);
     rutor.addEventListener("mouseover", function (event){
         if(event.target.tagName=="DIV" && event.target.id != "Rutor" && event.target.children[0].innerText == "?"){
