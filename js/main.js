@@ -45,10 +45,10 @@ window.onload = function(){
     function checkOrder(){
         let _counter = 0;
         console.log(rutor);
-        for(ruta in rutor){
-            if(parseInt(ruta.innerText) >= _counter){
-                console.log(counter);
-                _counter=parseInt(ruta.innerText);
+        for(_ruta of [...rutor]){
+            if(parseInt(_ruta.innerText) >= _counter){
+                console.log(_counter);
+                _counter=parseInt(_ruta.innerText);
             }
             else{
                 return false;
