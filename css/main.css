@@ -13,10 +13,5 @@ p{
     margin-right: 5%;
 
     background-color: aqua;
-}
-#Rutor div p{
     text-align: center;
-}
-.visible{
-    display: block;
 }
